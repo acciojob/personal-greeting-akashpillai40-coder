@@ -11,9 +11,9 @@ function App() {
         onChange={(e) => setName(e.target.value)}
       />
 
-      {name.trim() !== "" && (
-        <p>Hello, {name}!</p>
-      )}
+      
+        <p>Hello {name}!</p>
+    
     </div>
   );
 }
